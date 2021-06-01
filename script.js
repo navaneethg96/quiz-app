@@ -89,6 +89,7 @@ submitAns.addEventListener("click", () => {
             // submitAns.style.backgroundColor = '#2ecc71';
         }
         else {
+            //  This block displays the final score and result msg
             quiz.innerHTML = `<h2> You have entered correctly ${score}/${quizData.length} qustions </h2>
             <p style="text-align: center;">Correct answer: 5 points &nbsp; Incorrect answer: -1 point</p>
             <h2> Your score is ${score*5 - incorrect} </h2>
